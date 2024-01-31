@@ -1,0 +1,4 @@
+1. ### Preprocessing: gcc -E hello.c > hello.i
+  Delete 
+
+2. 
