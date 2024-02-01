@@ -38,7 +38,7 @@ void swap (int *a, int *b)   //int *a = &x, int *b = &y
   (2) address[0]
 
   Pointer and Array
-  int b[500] = {1,2,3,4,5};      //b is the address (the first address of array)
+  int b[500] = {1,2,3,4,5};      //b is the first address of array: b=&b[0]
   printf("%d", *b);         //return 1;
   printf("%d", *(b+1));     //return 2;
   printf("%d", b[0]);       //return 1;
