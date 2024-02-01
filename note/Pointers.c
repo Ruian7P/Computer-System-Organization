@@ -47,7 +47,7 @@ void swap (int *a, int *b)   //int *a = &x, int *b = &y
   printf("%d", (b+2)[1]);   //return 4;
 
 
-Example
+Example:
 #include <stdio.h>
 
 int main() {
