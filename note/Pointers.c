@@ -45,3 +45,20 @@ void swap (int *a, int *b)   //int *a = &x, int *b = &y
   printf("%d", b[2]);       //return 3;
   printf("%d", (b+1)[1]);   //return 3;
   printf("%d", (b+2)[1]);   //return 4;
+
+
+Example
+#include <stdio.h>
+
+int main() {
+  int x[] = {65,66,67,68,69};
+  char *p = (char *) x;  // p is equal to address x: they point to the same address, though the type is different
+
+  int i;
+  for (i = 0; i<5; i++) {
+    printf ("%c", *(p+i)); // the result would be like : A ☐☐☐ B ☐☐☐ C ☐☐☐ D ☐☐☐ E ☐☐☐
+  }
+  printf ("\n");
+
+  return 0;
+}
