@@ -34,7 +34,7 @@ void swap (int *a, int *b)   //int *a = &x, int *b = &y
 
 
 2. Ways to get the value in the address
-  (1) *address
+  (1) *address    (Dereferencing, Dimensionality Redunction)
   (2) address[0]  (arry is special pointer)
 
   Pointer and Array
