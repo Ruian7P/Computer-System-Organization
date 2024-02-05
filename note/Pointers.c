@@ -35,7 +35,7 @@ void swap (int *a, int *b)   //int *a = &x, int *b = &y
 
 2. Ways to get the value in the address
   (1) *address
-  (2) address[0]
+  (2) address[0]  (arry is special pointer)
 
   Pointer and Array
   int b[500] = {1,2,3,4,5};      //array b is the first address of array: b=&b[0]
