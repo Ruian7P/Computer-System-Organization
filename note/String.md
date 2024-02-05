@@ -6,8 +6,8 @@
 
 [important!]
 - char s[10] = "hello" 
-  - create String "hello", copy the characters in "hello" into the array, fill the left char with '\0'
+  - create String "hello", **copy** the characters in "hello" into the array, fill the left char with '\0'
 - char *c = "hello"
-  - create String "hello" (in read-only data memory), give the address of first character of "hello" to pointer c
+  - create String "hello" (in **read-only** data memory), give the address of first character of "hello" to pointer c
 - character in s is changeable, but character in c is not (since read only)
     
