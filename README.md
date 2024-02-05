@@ -16,3 +16,5 @@ Computer System Organization NYU CS, Lecturer: Moody
 - [Compile Process](https://github.com/Ruian7P/CSO/blob/main/note/Compile%20Process)
 - [Data Type](https://github.com/Ruian7P/CSO/blob/main/note/Data%20types.md)
 - [Pointer](https://github.com/Ruian7P/CSO/blob/main/note/Pointers.c)
+  - [Swap Generic](https://github.com/Ruian7P/CSO/blob/main/note/swap_generic.c)
+  - [Pointer in 2D Arrary](https://github.com/Ruian7P/CSO/blob/main/note/pointer%20in%202d%20array.png)
