@@ -4,7 +4,7 @@
 - char name[10] ={'n','a','m','e'}
 - char str[] = "name"     ==     char str[5] = "name"
 
-####[important!]
+#### [important!]
 - char s[10] = "hello" 
   - create String "hello", **copy** the characters in "hello" into the array, fill the left char with '\0'
 - char *c = "hello"
