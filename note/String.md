@@ -11,5 +11,6 @@
   - create String "hello" (in **read-only** data memory), give the address of first character of "hello" to pointer c
 - character in s is changeable, but character in c is not (since read-only)
 
-####
+#### Length of a String
+``` int
     
