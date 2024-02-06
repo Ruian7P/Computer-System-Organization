@@ -12,5 +12,8 @@
 - character in s is changeable, but character in c is not (since read-only)
 
 #### Length of a String
-``` int
+```
+int length(char *str)
+{
+  int length = 0;
     
