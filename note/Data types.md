@@ -3,6 +3,6 @@
   - char: 1 byte
   - float/double: 8 byte
 
--int:
+- int:
   - decimal: 0x____
   - binary:  0b____
