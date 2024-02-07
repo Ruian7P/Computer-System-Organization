@@ -17,7 +17,7 @@ struct student s1[10];
 
 stu s1[10]; //same as first one
 ```
-- **->**
+- **->** (arrow operator)
 ```c
 struct point p2 = {1.5, -3.1};
 struct point *ppoint;
