@@ -19,3 +19,6 @@ Computer System Organization NYU CS, Lecturer: Moody
   - [Swap Generic](https://github.com/Ruian7P/CSO/blob/main/note/swap_generic.c)
   - [Pointer in 2D Arrary](https://github.com/Ruian7P/CSO/blob/main/note/pointer%20in%202d%20array.png)
 - [sign-and-magnitude, One's Complement Representation, and Two's Complement Representation](https://github.com/Ruian7P/CSO/blob/main/note/SM,%20OCR,%20TCR.md)
+- [String](https://github.com/Ruian7P/CSO/blob/main/note/String.md)
+- [Structure](https://github.com/Ruian7P/CSO/blob/main/note/Structures.md)
+- [Malloc](https://github.com/Ruian7P/CSO/blob/main/note/malloc.md)
