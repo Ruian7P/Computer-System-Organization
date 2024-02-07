@@ -27,7 +27,8 @@ ppoint-> x;  // is the same as (*ppoint).x;
 
 
 ## node
-- **1.**
+- **Concept**
+  - 1.
 ``` c
 struct node
 {
@@ -35,7 +36,7 @@ struct node
   struct node* next;
 }
 ```
-- **2.**
+  - 2.
 ``` c
 typedef struct node
 {
@@ -44,4 +45,16 @@ typedef struct node
 }node, *LinkedList;
 ```
 This means we can node or LinkedList as the structure header.
+
+- **Methods**
+  - addFront()
+  - swapFirstandSecond()
+    ``` c
+    struct node* temp = *head ->next;
+    *head ->next ->next =*head;
+    *head ->next = *temp ->next;
+    *head = temp;
+    ```
+    
+    
   
