@@ -30,4 +30,7 @@ ppoint-> x;  // is the same as (*ppoint).x;
 ``` c
 struct node
 {
-  int dtaa
+  int data;
+  struct node* next;
+}
+  
