@@ -27,6 +27,7 @@ ppoint-> x;  // is the same as (*ppoint).x;
 
 
 ## node
+- **1.**
 ``` c
 struct node
 {
@@ -34,4 +35,13 @@ struct node
   struct node* next;
 }
 ```
+- **2.**
+``` c
+typedef struct node
+{
+  int data;
+  struct node* next;
+}node, *LinkedList;
+```
+This means we can node or LinkedList as the structure header.
   
