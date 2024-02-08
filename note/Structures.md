@@ -48,6 +48,13 @@ This means we can node or LinkedList as the structure header.
 
 - **Methods**
   - addFront()
+    ```c
+    void addFront(node* n, node** head)
+    {
+      n -> (*head);
+      (*head) = n;
+    }
+    
   - swapFirstandSecond()
     ``` c
     struct node* temp = *head ->next;
