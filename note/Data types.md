@@ -6,3 +6,6 @@
 ### int:
   - decimal: 0x____
   - binary:  0b____
+
+### float/double
+  - 4 byte save the numbers, 4 byte save 10^{-n}
