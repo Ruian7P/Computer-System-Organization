@@ -9,8 +9,8 @@
 
 ### float/double
   - Store sign (1 bit); Store exponent (8 bits); Store fraction;
-    - Exponent: Base 127; Exponent - 127 = how many bits to move; eg. for float 7.5, 111.1, 1111 need move 3 bits, Exponent = 130;
+    - Exponent: Base 127; Exponent - 127 = how many bits to move; eg. for float 7.5, 111.1,  need move 2 bits to be 1.111, Exponent = 129, which is 10000001 in binary;
     - Fraction: don't count the first 1; eg. for 7.5, 111.1, after moved 2 bit, it becomes 1.111 Fraction = 111
-    - for float 7.5, it stores 0 | 10000010 | 110 1111 1000 0000 0000
+    - for float 7.5, it stores 0 | 10000001 | 111 0000 0000 0000 0000
 
       
