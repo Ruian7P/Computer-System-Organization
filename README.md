@@ -22,3 +22,4 @@ Computer System Organization NYU CS, Lecturer: Moody
 - [String](https://github.com/Ruian7P/CSO/blob/main/note/String.md)
 - [Structure](https://github.com/Ruian7P/CSO/blob/main/note/Structures.md)
 - [Malloc](https://github.com/Ruian7P/CSO/blob/main/note/malloc.md)
+- [Machine-Level Programming](https://github.com/Ruian7P/Computer-System-Organization/blob/main/note/Machine-Level%20Programming.pdf)
