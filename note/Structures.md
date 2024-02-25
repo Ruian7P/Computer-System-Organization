@@ -51,7 +51,7 @@ This means we can node or LinkedList as the structure header.
     ```c
     void addFront(node* n, node** head)
     {
-      n -> (*head);
+      n -> next = (*head);
       (*head) = n;
     }
     
