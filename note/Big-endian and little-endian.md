@@ -1,4 +1,4 @@
-- ** byte address**
+- **byte address**
   - small address number: low address
   - big address number : high address
 - ** byte saving**
