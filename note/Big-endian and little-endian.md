@@ -1,7 +1,12 @@
 - ** byte address**
-  small address number: low address
-  big address number : high address
-- ** bit saving**
-  save from right to left
-  eg. 123456, 6 is in low bit, 1 is in high bit
-
+  - small address number: low address
+  - big address number : high address
+- ** byte saving**
+  - save from right to left, right side is low byte, left side is high byte
+  - eg. 123456, 6 is in low byte, 1 is in high byte
+ 
+- ** Save methods**
+  - Big-endian: save high byte in low memory address
+    - eg: for 0x 12 34 56 78, save it as 12 34 56 78
+  - Little-endian: save low byte in high memory address
+    - eg: for 0x 12 34 56 78, save it as 78 56 34 12
